@@ -3,7 +3,7 @@
 	"name": "macOS Classic and Cobalt2",
 	"author": "Leonardo Faria",
 	"maintainers": [
-			"Leonardo Faria <leonardofaria@gmail.com>"
+		"Leonardo Faria <leonardofaria@gmail.com>"
 	],
 	"type": "light",
 	"semanticClass": "theme.macos-classic-and-cobalt2",
@@ -19,7 +19,7 @@
     "dropdown.foreground": "#262426",
     "editor.background": "#193549",
     // "editor.foreground": "#24292e",
-    "editor.foreground": "#555",
+    "editor.foreground": "#eee",
     // "editor.findMatchBackground": "#e5f1ff",
     // "editorCursor.foreground": "#333333",
     "editorCursor.foreground": "#ffc600",
@@ -71,16 +71,18 @@
     "input.background": "#ffffff",
     "input.border": "#e0e0e0",
     "input.foreground": "#262426",
-    "list.activeSelectionBackground": "#0069d9",
+    "list.activeSelectionBackground": "#0069d900",
     "list.activeSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#f6f6f6",
-    "list.inactiveSelectionBackground": "#dcdcdc",
-    "list.inactiveSelectionForeground": "#262426",
+    "list.hoverBackground": "#ffffff00",
+    "list.inactiveSelectionBackground": "#dcdcdc00",
+    "list.inactiveSelectionForeground": "#6c6c6c",
     "notification.background": "#54a3ff",
-    "panel.background": "#ffffff",
-    "panel.border": "#a09ea0",
-    "panelTitle.activeForeground": "#24292e",
-    "scrollbar.shadow": "#ffffff",
+    "panel.background": "#122738",
+    "panel.border": "#122738",
+    "panelTitle.activeBorder": "#ffffff00",
+    "panelTitle.activeForeground": "#fff",
+    "panelTitle.inactiveForeground": "#aaa",
+    "scrollbar.shadow": "#ffffff00",
     "scrollbarSlider.activeBackground": "#f0f0f0",
     "scrollbarSlider.background": "#f0f0f0",
     "scrollbarSlider.hoverBackground": "#f0f0f0",
@@ -123,7 +125,8 @@
     "terminalCursor.background": "#ffc600",
     "terminalCursor.foreground": "#ffc600",
     "titleBar.activeBackground": "#c4c4c4",
-    "titleBar.border": "#a09ea0"
+    "titleBar.border": "#a09ea0",
+    "widget.shadow": "#ffffff00"
   },
   "tokenColors": [
     {
